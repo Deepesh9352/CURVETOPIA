@@ -81,7 +81,7 @@ def process_polylines(csv_path, output_image_path='output_shape.png'):
     return output_image
 
 # Run the process and display the image
-output_image = process_polylines(r"C:\\Users\\DELL\\Downloads\\problems\\problems\\frag0.csv")
+output_image = process_polylines(r"C:\\Users\\DELL\\Downloads\\problems\\problems\\isolated.csv")
 
 # Convert BGR to RGB for displaying with Matplotlib
 output_image_rgb = cv2.cvtColor(output_image, cv2.COLOR_BGR2RGB)
