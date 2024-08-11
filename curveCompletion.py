@@ -92,3 +92,6 @@ plt.imshow(output_image_rgb)
 plt.title('Processed Shape with Overlaps and Ellipses from CSV')
 plt.axis('off')  # Hide axes
 plt.show()
+
+
+
